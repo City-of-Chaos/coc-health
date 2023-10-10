@@ -17,3 +17,8 @@ description 'read the readme.md'
 
 client_script 'client.lua'
 server_script 'server.lua'
+
+ui_page 'ui/index.html'
+files {
+    'ui/*'
+}
